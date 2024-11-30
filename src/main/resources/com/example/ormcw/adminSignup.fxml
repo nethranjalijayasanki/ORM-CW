@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootNode" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ormcw.controller.AdminSignupController">
+   <children>
+      <Label layoutX="141.0" layoutY="24.0" text="Signup" textFill="#3750a1">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbAdminCoordinator" layoutX="37.0" layoutY="98.0" prefWidth="150.0" promptText="choose" />
+      <Label layoutX="37.0" layoutY="162.0" text="User Name :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="153.0" layoutY="163.0" />
+      <Label layoutX="37.0" layoutY="205.0" text="Email :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmail" layoutX="153.0" layoutY="206.0" />
+      <Label layoutX="37.0" layoutY="334.0" text="Admin Name :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAdminName" layoutX="30.0" layoutY="354.0" />
+      <Label layoutX="228.0" layoutY="334.0" text="Admin Code :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAdminCode" layoutX="211.0" layoutY="354.0" />
+      <Label layoutX="37.0" layoutY="244.0" text="Password :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="283.0" text="Confirm Password :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPassword" layoutX="152.0" layoutY="248.0" />
+      <PasswordField fx:id="txtRePassword" layoutX="211.0" layoutY="288.0" />
+      <Button fx:id="btnSignup" layoutX="153.0" layoutY="415.0" mnemonicParsing="false" onAction="#btnSignupOnAction" prefHeight="30.0" prefWidth="103.0" style="-fx-background-color: #3750a1;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="150.0" layoutY="476.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="30.0" prefWidth="103.0" style="-fx-background-color: #3750a1;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

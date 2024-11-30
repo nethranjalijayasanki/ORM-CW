@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ormcw.controller.UserformController">
+   <children>
+      <Label layoutX="223.0" layoutY="36.0" text="User Manage Form" textFill="#3750a1">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd" layoutX="85.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #3750a1;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="193.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #3750a1;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="298.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #3750a1;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnViewAllOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #3750a1;" text="All" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="690.0" layoutY="123.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #3750a1;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtUserSearch" layoutX="525.0" layoutY="125.0" text="Search by user name" />
+      <TableView fx:id="tblUser" layoutX="85.0" layoutY="241.0" prefHeight="251.0" prefWidth="590.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="149.0" text="Name" />
+          <TableColumn fx:id="colPassword" prefWidth="143.0" text="Password" />
+            <TableColumn fx:id="colEmail" prefWidth="202.0" text="Email" />
+            <TableColumn fx:id="colRole" prefWidth="94.0" text="Role" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

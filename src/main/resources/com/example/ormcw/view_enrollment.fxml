@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootNode" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ormcw.controller.ViewEnrollmentController">
+   <children>
+      <Label layoutX="307.0" layoutY="45.0" text="Enrollment" textFill="#3750a1">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="144.0" text="Search :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSearchByStudentId" layoutX="185.0" layoutY="145.0" prefHeight="25.0" prefWidth="218.0" text="search by student ID" />
+      <Button layoutX="530.0" layoutY="145.0" mnemonicParsing="false" onAction="#btnViewAllOnAction" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #3750a1;" text="All" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="427.0" layoutY="145.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #3750a1;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TableView fx:id="tblREgiDetails" layoutX="94.0" layoutY="200.0" prefHeight="253.0" prefWidth="624.0">
+        <columns>
+          <TableColumn fx:id="colStudentId" prefWidth="75.0" text="Student ID" />
+          <TableColumn fx:id="colStudentName" prefWidth="151.0" text="Student Name" />
+            <TableColumn fx:id="colCourseId" prefWidth="86.0" text="Program ID" />
+            <TableColumn fx:id="colCourseName" prefWidth="145.0" text="Program Name" />
+            <TableColumn fx:id="colUpfrontPayment" prefWidth="166.0" text="Upfront Payment" />
+        </columns>
+      </TableView>
+      <Button layoutX="625.0" layoutY="467.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #3750a1;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

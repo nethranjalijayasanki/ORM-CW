@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootNode" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ormcw.controller.PaymentformController">
+   <children>
+      <Label layoutX="276.0" layoutY="25.0" text="Payment Form" textFill="#3750a1">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="97.0" text="Payment ID :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRegisterId" layoutX="216.0" layoutY="101.0" prefHeight="20.0" prefWidth="87.0" text="P-10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="94.0" text="Date :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePicker" layoutX="483.0" layoutY="95.0" onAction="#getDateOnAction" prefHeight="25.0" prefWidth="190.0" promptText="DD/MM/YYYY" />
+      <Label layoutX="96.0" layoutY="152.0" text="Student ID :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentId" layoutX="202.0" layoutY="153.0" onAction="#txtStudentIdOnAction" />
+      <Label layoutX="417.0" layoutY="152.0" text="Student Name :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentName" layoutX="559.0" layoutY="153.0" />
+      <Label layoutX="100.0" layoutY="207.0" text="Program :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbProgramNames" layoutX="197.0" layoutY="208.0" onAction="#cmbProgramNamesOnAction" prefWidth="150.0" promptText="choose" />
+      <Line endX="447.0" layoutX="272.0" layoutY="282.0" startX="-174.0" />
+      <Label layoutX="103.0" layoutY="308.0" text="Program Fee :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProgramFee" layoutX="202.0" layoutY="306.0" />
+      <Label layoutX="101.0" layoutY="357.0" text="Upfront Fee :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUpfrontPayment" layoutX="200.0" layoutY="355.0" />
+      <Label layoutX="100.0" layoutY="404.0" text="Total Fee :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTotalPaid" layoutX="199.0" layoutY="402.0" />
+      <Label layoutX="100.0" layoutY="454.0" text="Balance :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBalance" layoutX="199.0" layoutY="452.0" />
+      <Label layoutX="425.0" layoutY="367.0" text="Amount :" textFill="#3750a1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPayingAmount" layoutX="524.0" layoutY="365.0" />
+      <Button layoutX="548.0" layoutY="442.0" mnemonicParsing="false" onAction="#btnPayOnAction" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #3750a1;" text="Pay" textFill="WHITE" />
+   </children>
+</AnchorPane>
