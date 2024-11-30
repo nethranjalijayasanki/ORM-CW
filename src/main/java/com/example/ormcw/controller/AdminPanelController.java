@@ -55,22 +55,22 @@ public class AdminPanelController {
 
     @FXML
     void btnProgramsOnAction(ActionEvent event) {
-        navigateTo("/view/program_form.fxml");
+        navigateTo("/com/example/ormcw/programForm.fxml");
     }
 
     @FXML
     void btnRegistrationOnAction(ActionEvent event) {
-        navigateTo("/view/registration_form.fxml");
+        navigateTo("/com/example/ormcw/enrollment.fxml");
     }
 
     @FXML
     void btnSettingOnAction(ActionEvent event) {
-        navigateTo("/view/userSetting_form.fxml");
+        navigateTo("/com/example/ormcw/passwordChange.fxml");
     }
 
     @FXML
     void btnStudentOnAction(ActionEvent event) {
-        navigateTo("/view/student_form.fxml");
+        navigateTo("/com/example/ormcw/studentForm.fxml");
     }
 
 
