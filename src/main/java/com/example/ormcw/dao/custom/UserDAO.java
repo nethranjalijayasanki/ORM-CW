@@ -1,7 +1,7 @@
 package com.example.ormcw.dao.custom;
 
-import lk.ijse.dao.CrudDAO;
-import lk.ijse.entity.User;
+import com.example.ormcw.dao.CrudDAO;
+import com.example.ormcw.entity.User;
 
 public interface UserDAO extends CrudDAO<User> {
     public boolean update(User entity, String firstUserName);

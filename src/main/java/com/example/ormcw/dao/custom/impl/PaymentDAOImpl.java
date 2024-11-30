@@ -1,9 +1,9 @@
 package com.example.ormcw.dao.custom.impl;
 
 import javafx.scene.control.Alert;
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.custom.PaymentDAO;
-import lk.ijse.entity.Payment;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.custom.PaymentDAO;
+import com.example.ormcw.entity.Payment;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

@@ -1,10 +1,10 @@
 package com.example.ormcw.bo.custom.impl;
 
-import lk.ijse.bo.custom.ProgramBO;
-import lk.ijse.dao.DAOFactory;
-import lk.ijse.dao.custom.ProgramDAO;
-import lk.ijse.dto.ProgramDTO;
-import lk.ijse.entity.Program;
+import com.example.ormcw.bo.custom.ProgramBO;
+import com.example.ormcw.dao.DAOFactory;
+import com.example.ormcw.dao.custom.ProgramDAO;
+import com.example.ormcw.dto.ProgramDTO;
+import com.example.ormcw.entity.Program;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

@@ -1,16 +1,16 @@
 package com.example.ormcw.bo.custom.impl;
 
 import javafx.scene.control.Alert;
-import lk.ijse.bo.custom.RegistrationBO;
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.DAOFactory;
-import lk.ijse.dao.custom.PaymentDAO;
-import lk.ijse.dao.custom.RegistrationDAO;
-import lk.ijse.dto.RegistrationDTO;
-import lk.ijse.entity.Payment;
-import lk.ijse.entity.Program;
-import lk.ijse.entity.Registration;
-import lk.ijse.entity.Student;
+import com.example.ormcw.bo.custom.RegistrationBO;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.DAOFactory;
+import com.example.ormcw.dao.custom.PaymentDAO;
+import com.example.ormcw.dao.custom.RegistrationDAO;
+import com.example.ormcw.dto.RegistrationDTO;
+import com.example.ormcw.entity.Payment;
+import com.example.ormcw.entity.Program;
+import com.example.ormcw.entity.Registration;
+import com.example.ormcw.entity.Student;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

@@ -1,7 +1,7 @@
 package com.example.ormcw.dao.custom;
 
-import lk.ijse.dao.CrudDAO;
-import lk.ijse.entity.Payment;
+import com.example.ormcw.dao.CrudDAO;
+import com.example.ormcw.entity.Payment;
 import org.hibernate.Session;
 
 public interface PaymentDAO extends CrudDAO<Payment> {

@@ -1,9 +1,9 @@
 package com.example.ormcw.dao.custom.impl;
 
 import javafx.scene.control.Alert;
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.custom.StudentDAO;
-import lk.ijse.entity.Student;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.custom.StudentDAO;
+import com.example.ormcw.entity.Student;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

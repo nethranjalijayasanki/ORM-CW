@@ -1,6 +1,6 @@
 package com.example.ormcw.dao;
 
-import lk.ijse.dao.custom.impl.*;
+import com.example.ormcw.dao.custom.impl.*;
 
 public class DAOFactory {
     private static DAOFactory daoFactory;

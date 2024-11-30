@@ -1,7 +1,7 @@
  package com.example.ormcw.config;
 
 
-import lk.ijse.entity.*;
+import com.example.ormcw.entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

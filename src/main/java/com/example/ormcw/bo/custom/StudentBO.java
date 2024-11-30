@@ -1,8 +1,8 @@
 package com.example.ormcw.bo.custom;
 
-import lk.ijse.bo.SuperBO;
-import lk.ijse.dto.StudentDTO;
-import lk.ijse.entity.Student;
+import com.example.ormcw.bo.SuperBO;
+import com.example.ormcw.dto.StudentDTO;
+import com.example.ormcw.entity.Student;
 
 import java.sql.SQLException;
 import java.util.List;

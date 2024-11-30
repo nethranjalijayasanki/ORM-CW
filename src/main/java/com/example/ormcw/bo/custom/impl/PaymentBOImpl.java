@@ -1,10 +1,10 @@
 package com.example.ormcw.bo.custom.impl;
 
-import lk.ijse.bo.custom.PaymentBO;
-import lk.ijse.dao.DAOFactory;
-import lk.ijse.dao.custom.PaymentDAO;
-import lk.ijse.dao.custom.QueryDAO;
-import lk.ijse.entity.Payment;
+import com.example.ormcw.bo.custom.PaymentBO;
+import com.example.ormcw.dao.DAOFactory;
+import com.example.ormcw.dao.custom.PaymentDAO;
+import com.example.ormcw.dao.custom.QueryDAO;
+import com.example.ormcw.entity.Payment;
 
 public class PaymentBOImpl implements PaymentBO {
 

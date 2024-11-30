@@ -1,7 +1,7 @@
 package com.example.ormcw.dao.custom;
 
-import lk.ijse.dao.CrudDAO;
-import lk.ijse.entity.Program;
+import com.example.ormcw.dao.CrudDAO;
+import com.example.ormcw.entity.Program;
 
 import java.sql.SQLException;
 import java.util.List;

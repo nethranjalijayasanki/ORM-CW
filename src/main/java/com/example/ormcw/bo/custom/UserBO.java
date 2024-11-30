@@ -1,8 +1,8 @@
 package com.example.ormcw.bo.custom;
 
-import lk.ijse.bo.SuperBO;
-import lk.ijse.dto.UserDTO;
-import lk.ijse.entity.User;
+import com.example.ormcw.bo.SuperBO;
+import com.example.ormcw.dto.UserDTO;
+import com.example.ormcw.entity.User;
 
 import java.util.List;
 

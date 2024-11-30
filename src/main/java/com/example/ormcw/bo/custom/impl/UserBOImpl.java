@@ -1,10 +1,10 @@
 package com.example.ormcw.bo.custom.impl;
 
-import lk.ijse.bo.custom.UserBO;
-import lk.ijse.dao.DAOFactory;
-import lk.ijse.dao.custom.UserDAO;
-import lk.ijse.dto.UserDTO;
-import lk.ijse.entity.User;
+import com.example.ormcw.bo.custom.UserBO;
+import com.example.ormcw.dao.DAOFactory;
+import com.example.ormcw.dao.custom.UserDAO;
+import com.example.ormcw.dto.UserDTO;
+import com.example.ormcw.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

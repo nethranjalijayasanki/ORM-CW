@@ -1,7 +1,7 @@
 package com.example.ormcw.dao.custom.impl;
 
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.custom.QueryDAO;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.custom.QueryDAO;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 

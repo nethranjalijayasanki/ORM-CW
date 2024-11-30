@@ -1,7 +1,7 @@
 package com.example.ormcw.bo.custom;
 
-import lk.ijse.bo.SuperBO;
-import lk.ijse.dto.ProgramDTO;
+import com.example.ormcw.bo.SuperBO;
+import com.example.ormcw.dto.ProgramDTO;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,10 +1,10 @@
 package com.example.ormcw.dao.custom.impl;
 
 import javafx.scene.control.Alert;
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.custom.UserDAO;
-import lk.ijse.entity.User;
-import lk.ijse.util.PasswordUtil;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.custom.UserDAO;
+import com.example.ormcw.entity.User;
+import com.example.ormcw.util.PasswordUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

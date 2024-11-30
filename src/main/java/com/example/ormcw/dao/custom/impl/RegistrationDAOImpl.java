@@ -1,9 +1,9 @@
 package com.example.ormcw.dao.custom.impl;
 
 import javafx.scene.control.Alert;
-import lk.ijse.config.FactoryConfiguration;
-import lk.ijse.dao.custom.RegistrationDAO;
-import lk.ijse.entity.Registration;
+import com.example.ormcw.config.FactoryConfiguration;
+import com.example.ormcw.dao.custom.RegistrationDAO;
+import com.example.ormcw.entity.Registration;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

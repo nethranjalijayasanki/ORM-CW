@@ -1,7 +1,7 @@
 package com.example.ormcw.dao.custom;
 
-import lk.ijse.dao.CrudDAO;
-import lk.ijse.entity.Registration;
+import com.example.ormcw.dao.CrudDAO;
+import com.example.ormcw.entity.Registration;
 import org.hibernate.Session;
 
 import java.util.List;

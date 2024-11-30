@@ -1,6 +1,6 @@
 package com.example.ormcw.dao;
 
-import lk.ijse.config.FactoryConfiguration;
+import com.example.ormcw.config.FactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
